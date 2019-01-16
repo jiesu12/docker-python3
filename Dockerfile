@@ -1,4 +1,4 @@
-FROM armhf/alpine:3.5
+FROM alpine:3.8
 
 RUN apk add --no-cache python3 && \
     python3 -m ensurepip && \
